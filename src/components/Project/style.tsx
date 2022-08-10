@@ -51,10 +51,11 @@ export const Project = styled("article", {
         right: "-4rem",
         width: "max-content",
         height: "max-content",
+        backgroundImage: "linear-gradient(to top right, $brand3, $brand1)",
         backgroundColor: "$brand2",
         padding: "0 8px",
         borderRadius: "$1",
-        fontSize: "$text2"
+        fontSize: "$text2",
       }
       
     }

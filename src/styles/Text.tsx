@@ -10,22 +10,27 @@ const bodyDefaultConfig = {
 }
 
 export const Text = styled("p", {
+    
     color: "$grey1",
     fontSize: "$text1",
     fontWeight: 400,
     variants: {
         type: {
             heading1: {
-                fontSize: "$title1",
-                lineHeight: "$title1",
-                fontWeight: 700,
-                ...headingsDefaultConfig,
-                "@mobile": {
-                    fontSize: "$title1Mobile",
-                    lineHeight: "$title1Mobile"
-                }
+              backgroundImage: "linear-gradient(to top right, $brand1, $brand3)",
+              backgroundClip: "text",
+              fontSize: "$title1",
+              lineHeight: "$title1",
+              fontWeight: 700,
+              ...headingsDefaultConfig,
+              "@mobile": {
+                  fontSize: "$title1Mobile",
+                  lineHeight: "$title1Mobile"
+              }
             },
             heading2: {
+              backgroundImage: "linear-gradient(to bottom right, $brand3, $brand1)",
+              backgroundClip: "text",
                 fontSize: "$title2",
                 lineHeight: "$title2",
                 fontWeight: 700,

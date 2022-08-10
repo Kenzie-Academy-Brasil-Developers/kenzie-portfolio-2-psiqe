@@ -8,7 +8,7 @@ export const Button = styled("button", {
   color: "$grey1",
   fontWeight: "600",
   padding: "0 2rem",
-  border: "2px solid $whiteFixed",
+  border: "0px solid $whiteFixed",
   borderRadius: "$1",
   cursor: "pointer",
   fontSize: "1rem",
@@ -27,12 +27,12 @@ export const Button = styled("button", {
         fontWeight: "500",
       },
       primary: {
-        background: "$brand1",
-        borderColor: "$brand1",
+        backgroundImage: "linear-gradient(to bottom right, $brand1, $brand3)",
+        borderColor: "transparent",
         color: "$whiteFixed",
         "&:hover": {
-          backgroundColor: "$brand2",
-          borderColor: "$brand2",
+          backgroundColor: "transparent",
+          borderColor: "transparent",
         },
       },
       icon: {

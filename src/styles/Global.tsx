@@ -36,16 +36,27 @@ export const colors = {
     brand3: {
       color: "$brand3",
     },
+    brand4: {
+      color: "$brand4",
+    },
     brand5: {
       color: "$brand5",
     },
+    brand6: {
+      color: "$brand6",
+    },
     brand7: {
-      color: "$brand5",
+      color: "$brand7",
+    },
+    brand8: {
+      color: "$brand8",
+    },
+    grey0: {
+      color: "$grey0",
     },
     grey1: {
       color: "$grey1",
     },
-
     grey2: {
       color: "$grey2",
     },
@@ -64,6 +75,21 @@ export const colors = {
     grey6: {
       color: "$grey6",
     },
+    socialInstagram: {
+      color: "$socialInstagram",
+    }, 
+    socialFacebook: {
+      color: "$socialFacebook",
+    },
+    socialLinkedin: {
+      color: "$socialLinkedin",
+    },
+    whiteFixed: {
+      color: "$whiteFixed",
+    },
+    mode: {
+      color: "$mode",
+    }
   },
 };
 
@@ -83,14 +109,14 @@ export const globalStyles = globalCss({
 export const GlobalStyle: React.FC<GlobalStyleProps> = ({ children }) => {
   const theme = createTheme({
     colors: {
-      brand1: "#623CEA",
-      brand2: "#311E75",
-      brand3: "#50CF9A",
-      brand4: "#E5F8F0",
+      brand1: "#ee6c02",
+      brand2: "#8f5424",
+      brand3: "#560591",
+      brand4: "#0cf091",
       brand5: "#FF577F",
       brand6: "#F8E5F3",
-      brand7: "#506CCF",
-      brand8: "#E5E9F8",
+      brand7: "#072aa8",
+      brand8: "transparent",
 
       grey0: "#0A0A0B",
       grey1: "#121214",

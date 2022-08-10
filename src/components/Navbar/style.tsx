@@ -3,8 +3,8 @@ import { Flex, Container } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
 
 export const Navbar = styled("nav", {
-  background: "$grey0",
-  borderBottom: "2px solid $brand1",
+  background: "linear-gradient(#000 0 0) padding-box, linear-gradient(to right, $brand1, $brand3) border-box",
+  borderBottom: "3px solid transparent",
   position: "fixed",
   inset: 0,
   bottom: "auto",
